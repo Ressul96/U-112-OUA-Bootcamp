@@ -17,7 +17,7 @@ public class Hareket : MonoBehaviour
         animator = GetComponent<Animator>();
     }
 
-    private void Update()
+    public void HandleUpdate()
     {
         if (!move)
         {
@@ -54,7 +54,7 @@ public class Hareket : MonoBehaviour
         var collider = Physics2D.OverlapCircle(interactPos, 0.2f, NPClayer);
         if (collider != null)
         {
-            Debug.Log("NPC var");
+            collider.GetComponent<Temas>()?.Interact();
         }
 
     }
