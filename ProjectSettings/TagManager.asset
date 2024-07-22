@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Sabitobje
+  - NPC
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Bg
+    uniqueID: 4082002569
+    locked: 0
+  - name: Bg2
+    uniqueID: 1956021741
+    locked: 0
+  - name: Bg 3
+    uniqueID: 988219207
+    locked: 0
+  - name: Sabit
+    uniqueID: 418489771
+    locked: 0
+  - name: Oyuncu
+    uniqueID: 2196812303
+    locked: 0
+  - name: Gecis
+    uniqueID: 611635347
+    locked: 0
