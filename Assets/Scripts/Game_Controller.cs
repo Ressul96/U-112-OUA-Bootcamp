@@ -9,6 +9,19 @@ public class Game_Controller : MonoBehaviour
 
     GameState state;
 
+    private void Start()
+    {
+        Diyalog_manager.Instance.OnShowDialog += () =>
+        {
+            state = GameState.Diyalog;
+        };
+        Diyalog_manager.Instance.OnHideDialog += () =>
+        {
+            if (state == GameState.Diyalog)
+                state = GameState.Dolasma;
+        };
+    }
+
     private void Update()
     {
         if (state == GameState.Dolasma)
@@ -17,7 +30,7 @@ public class Game_Controller : MonoBehaviour
         } 
         else if (state == GameState.Diyalog)
         {
-
+            Diyalog_manager.Instance.HandleUpdate();
         }
         else if (state == GameState.Saldiri)
         {

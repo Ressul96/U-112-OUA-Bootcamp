@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class NPC_Controller : MonoBehaviour, Temas
 {
+    [SerializeField] Diyalog dialog;
     public void Interact()
     {
-        Debug.Log("npc talks");
+       StartCoroutine(Diyalog_manager.Instance.diyalog_goster(dialog));
     }
 }
