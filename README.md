@@ -5,7 +5,7 @@ Küçük ve huzurlu bir kasaba, her gün batımında gizemli bir karanlığa bü
 
 Arda, her seviyede farklı görevlerle karşılaşıyor. Bazen kaybolmuş bir oyuncağı bulması gerekiyor, bazen de arkadaşlarına yardım etmek için belirli malzemeleri toplaması gerekiyor. Ancak her seferinde zamanı sınırlı ve güneş battığında kasabanın güvenli sokakları karanlık ve korkutucu bir yer haline geliyor. Karanlık çöktüğünde, Arda'nın hareket kabiliyeti kısıtlanıyor ve kasabanın gizemli yaratıkları ortaya çıkıyor.
 
-![Oyun Ekran Görüntüsü](gorseller/sample)
+![Oyun Ekran Görüntüsü](gorseller/sample.jpg)
 
 ## Oyun Mekaniği
 - **Amaç:** Her seviyede belirtilen süre içinde gerekli eşyaları toplamak ve güvenli noktaya ulaşmak. Bu güvenli nokta, genellikle Arda'nın evi ya da belirli bir sığınak olabilir.
@@ -27,5 +27,3 @@ Arda, her seviyede farklı görevlerle karşılaşıyor. Bazen kaybolmuş bir oy
    - Belirtilen nesneleri toplayın.
    - Zaman dolmadan güvenli noktaya ulaşın.
    - Gece olmadan görevlerinizi tamamlamaya çalışın.
-
-Bu README dosyası, oyunun genel yapısını ve oynanış mekaniklerini özetler. Oyuncular, Arda'nın maceralarında ilerlerken hem keyifli vakit geçirecek hem de zamanla yarışmanın heyecanını yaşayacaklar. "Geceye Karşı Yarış" ile kasabanın karanlık sırlarını çözmek için hazırlanın!
