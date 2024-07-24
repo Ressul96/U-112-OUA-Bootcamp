@@ -5,7 +5,7 @@ Küçük ve huzurlu bir kasaba, her gün batımında gizemli bir karanlığa bü
 
 Arda, her seviyede farklı görevlerle karşılaşıyor. Bazen kaybolmuş bir oyuncağı bulması gerekiyor, bazen de arkadaşlarına yardım etmek için belirli malzemeleri toplaması gerekiyor. Ancak her seferinde zamanı sınırlı ve güneş battığında kasabanın güvenli sokakları karanlık ve korkutucu bir yer haline geliyor. Karanlık çöktüğünde, Arda'nın hareket kabiliyeti kısıtlanıyor ve kasabanın gizemli yaratıkları ortaya çıkıyor.
 
-![Oyun Ekran Görüntüsü](Assets/ART/Assets/ART/sample.jpg)
+![Oyun Ekran Görüntüsü](Assets/ART/sample.jpg)
 
 ## Oyun Mekaniği
 - **Amaç:** Her seviyede belirtilen süre içinde gerekli eşyaları toplamak ve güvenli noktaya ulaşmak. Bu güvenli nokta, genellikle Arda'nın evi ya da belirli bir sığınak olabilir.
