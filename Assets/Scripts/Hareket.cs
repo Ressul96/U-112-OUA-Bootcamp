@@ -1,6 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEditor.UIElements;
+﻿using System.Collections;
 using UnityEngine;
 
 public class Hareket : MonoBehaviour
@@ -24,12 +22,9 @@ public class Hareket : MonoBehaviour
             input.x = Input.GetAxisRaw("Horizontal");
             input.y = Input.GetAxisRaw("Vertical");
 
-
-
             if (input.x != 0) input.y = 0;
 
-
-            if (input != Vector2.zero)  
+            if (input != Vector2.zero)
             {
                 animator.SetFloat("moveX", input.x);
                 animator.SetFloat("moveY", input.y);
@@ -56,8 +51,8 @@ public class Hareket : MonoBehaviour
         {
             collider.GetComponent<Temas>()?.Interact();
         }
-
     }
+
     IEnumerator Move(Vector3 targetPos)
     {
         move = true;
@@ -69,12 +64,38 @@ public class Hareket : MonoBehaviour
         transform.position = targetPos;
         move = false;
     }
+
     private bool IsWalkable(Vector3 targetPos)
     {
-        if(Physics2D.OverlapCircle(targetPos, 0.2f, sabitobjelayer | NPClayer) != null)
+        float checkRadius = 0.1f;  // Çarpışma kontrol yarıçapı
+        Vector3 checkPos = targetPos + new Vector3(0, -0.5f, 0); // Yükseklik farkını hesaba katmak için pozisyonu ayarlayın
+        if (Physics2D.OverlapCircle(checkPos, checkRadius, sabitobjelayer | NPClayer) != null)
         {
             return false;
         }
         return true;
+    }
+
+    // Karakterin pozisyonunu kaydetme
+    public void SavePlayerPosition()
+    {
+        PlayerPrefs.SetFloat("PlayerX", transform.position.x);
+        PlayerPrefs.SetFloat("PlayerY", transform.position.y);
+        PlayerPrefs.SetFloat("PlayerZ", transform.position.z);
+        PlayerPrefs.Save();
+    }
+
+    // Karakterin pozisyonunu yükleme
+    public void LoadPlayerPosition()
+    {
+        float x = PlayerPrefs.GetFloat("PlayerX", 0);
+        float y = PlayerPrefs.GetFloat("PlayerY", 0);
+        float z = PlayerPrefs.GetFloat("PlayerZ", 0);
+        transform.position = new Vector3(x, y, z);
+    }
+
+    void OnEnable()
+    {
+        LoadPlayerPosition();
     }
 }
