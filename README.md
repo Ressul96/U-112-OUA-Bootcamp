@@ -12,6 +12,7 @@
 - **Amaç:** Her seviyede belirtilen süre içinde gerekli eşyaları toplamak ve güvenli noktaya ulaşmak. Bu güvenli nokta, genellikle Arda'nın evi ya da belirli bir sığınak olabilir.
 - **Zaman:** Her seviye için belirli bir süre olacak. Bu süre dolduğunda gece olacak ve oyuncu kaybedecek. Zaman, oyunun temel gerilim unsuru olarak hizmet ediyor.
 - **Collectibles:** Oyuncu farklı seviyelerde farklı nesneler toplayacak. Bu nesneler, oyunun hikayesine uygun olarak değişiklik gösterecek. Örneğin, bir seviyede eski bir kitabı bulmak, başka bir seviyede ise arkadaşının kaybolan kedisini bulmak gibi.
+![Collectible görüntüsü](Assets/gorseller/collectible_screen.jpg)
 - **Gece Mekaniği:** Süre dolduğunda gece olacak ve oyun sona erecek. Gece olduğunda ekstra zorluklar eklenebilir. Örneğin, görünmez düşmanlar, daha zor görünen yollar veya aniden ortaya çıkan engeller gibi.
 
 ## Oyun Özellikleri
